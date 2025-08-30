@@ -1,0 +1,181 @@
+.icon-start.disabled {
+  color: var(--gray);
+}
+.icon-start.error {
+  color: var(--red);
+}
+.icon-start.isFocused {
+  color: var(--orange);
+}
+
+.title-input.disabled {
+  color: var(--gray);
+}
+.title-input.isFocused {
+  color: var(--orange);
+}
+.title-input.error {
+  color: var(--red);
+}
+
+.box-border.disabled {
+  border: 1.5px solid var(--gray-1);
+  color: var(--gray);
+}
+.box-border.isFocused {
+  border: 1.5px solid var(--orange);
+}
+.box-border.error {
+  border: 1.5px solid var(--red);
+}
+
+/* Input padding and font size */
+.input-input-sm {
+  height: 32px;
+  padding-right: 50px;
+  padding-left: 28px;
+  font-size: 12px;
+}
+.input-input-md {
+  height: 40px;
+  padding-right: 54px;
+  padding-left: 34px;
+  font-size: 14px;
+}
+.input-input-lg {
+  height: 48px;
+  padding-right: 56px;
+  padding-left: 44px;
+  font-size: 16px;
+}
+
+/* Label position and font size */
+.input-label-sm {
+  font-size: 12px;
+  top: 6px;
+}
+.input-label-sm-floating {
+  font-size: 12px;
+  top: -8px;
+}
+.input-label-md {
+  font-size: 14px;
+  top: 10px;
+}
+.input-label-md-floating {
+  font-size: 14px;
+  top: -10px;
+}
+.input-label-lg {
+  font-size: 16px;
+  top: 12px;
+}
+.input-label-lg-floating {
+  font-size: 16px;
+  top: -14px;
+}
+
+/* Label padding */
+.input-labelPadding-sm {
+  padding-left: 24px;
+  margin-right: 22px;
+}
+.input-labelPadding-sm-floating {
+  padding-left: 6px;
+}
+.input-labelPadding-md {
+  padding-left: 24px;
+  margin-right: 28px;
+}
+.input-labelPadding-md-floating {
+  padding-left: 6px;
+}
+.input-labelPadding-lg {
+  padding-left: 24px;
+  margin-right: 36px;
+}
+.input-labelPadding-lg-floating {
+  padding-left: 6px;
+}
+
+/* Icon size and padding */
+.input-icon-sm {
+  padding-left: 8px;
+  padding-right: 2px;
+  width: 26px;
+  height: 26px;
+}
+.input-icon-md {
+  padding-left: 10px;
+  padding-right: 2px;
+  width: 32px;
+  height: 32px;
+}
+.input-icon-lg {
+  padding-left: 12px;
+  padding-right: 2px;
+  width: 38px;
+  height: 38px;
+}
+
+.input-divider-sm {
+  top: 10px;
+  right: 32px;
+  height: 14px;
+}
+
+.input-divider-md {
+  top: 10px;
+  right: 38px;
+  height: 20px;
+}
+
+.input-divider-lg {
+  top: 10px;
+  right: 44px;
+  height: 25px;
+}
+
+.divider.disabled {
+  background-color: var(--gray);
+}
+.divider.error {
+  background-color: var(--red);
+}
+.divider.isFocused {
+  background-color: var(--orange);
+}
+
+/* Clear button size and padding */
+.input-clear-sm {
+  font-size: 14px;
+  width: 13px;
+  height: 13px;
+  padding-left: 17px;
+}
+.input-clear-md {
+  font-size: 18px;
+  width: 15px;
+  height: 15px;
+  padding-left: 17px;
+}
+.input-clear-lg {
+  font-size: 16px;
+  width: 16px;
+  height: 16px;
+  padding-left: 17px;
+}
+
+/* Label right position */
+.input-labelRight-sm {
+  right: 14px;
+  padding-right: 8px;
+}
+.input-labelRight-md {
+  right: 14px;
+  padding-right: 8px;
+}
+.input-labelRight-lg {
+  right: 14px;
+  padding-right: 8px;
+}
