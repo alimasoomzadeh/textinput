@@ -60,7 +60,7 @@ export const Input: React.FC<InputProps> = ({
               ${getSizeClass("label", showFloatingLabel)}
               ${getSizeClass("labelPadding", showFloatingLabel)}
               ${getSizeClass("labelRight")}
-              ${error ? "error" : value ? "text-[#3D3D3D]" : "text-[#D1D1D1]"}
+              ${error ? "error" : value ? "text-gray-2" : "text-gray-1"}
               ${disabled && "disabled"}
               ${error ? "error" : isFocused && "isFocused"}
             `}
@@ -72,7 +72,7 @@ export const Input: React.FC<InputProps> = ({
           className={`absolute divider z-[2] flex items-center w-[1px]
               ${disabled && "disabled"}
               ${error ? "error" : isFocused && "isFocused"}
-              ${error ? "error" : value ? "bg-[#3D3D3D]" : "bg-[#D1D1D1]"}
+              ${error ? "error" : value ? "bg-gray-2" : "bg-gray-1"}
             ${getSizeClass("divider")}`}
         ></span>
         <div className="relative">
@@ -83,7 +83,7 @@ export const Input: React.FC<InputProps> = ({
                 ${getSizeClass("icon")}
                 ${disabled && "disabled"}
                 ${error ? "error" : isFocused && "isFocused"}
-                ${error ? "error" : value ? "text-[#3D3D3D]" : "text-[#D1D1D1]"}
+                ${error ? "error" : value ? "text-gray-2" : "text-gray-1"}
               `}
             >
               {icon}
@@ -106,16 +106,10 @@ export const Input: React.FC<InputProps> = ({
                 !error &&
                 !isFocused &&
                 !disabled &&
-                "border-[#B0B0B0] border-[1.5px]"
+                "border-gray-3 border-[1.5px]"
               }
               ${error ? "error" : isFocused && "isFocused"}
-              ${
-                disabled
-                  ? "disabled"
-                  : value
-                  ? "text-[#3D3D3D]"
-                  : "text-[#D1D1D1]"
-              }`}
+              ${disabled ? "disabled" : value ? "text-gray-2" : "bg-gray-1"}`}
             {...props}
           />
           <button
@@ -125,7 +119,7 @@ export const Input: React.FC<InputProps> = ({
             tabIndex={-1}
             className={`absolute left-2 top-1/2 -translate-y-1/2 bg-none border-none m-0 cursor-pointer z-[2] leading-none outline-none
               ${getSizeClass("clear")}
-              text-[#3D3D3D]`}
+              text-gray-2`}
           >
             &#10006;
           </button>
@@ -133,7 +127,7 @@ export const Input: React.FC<InputProps> = ({
         {helperText && (
           <span
             className={`mt-1 text-right rtl font-medium text-[12px] ${
-              error ? "text-[#FF0031]" : "text-[#666]"
+              error ? "text-red" : "text-gray-3"
             }`}
           >
             {helperText}
