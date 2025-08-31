@@ -1,32 +1,32 @@
 .icon-start.disabled {
-  color: var(--gray);
+  color: var(--color-gray-3);
 }
 .icon-start.error {
-  color: var(--red);
+  color: var(--color-red);
 }
 .icon-start.isFocused {
-  color: var(--orange);
+  color: var(--color-orange);
 }
 
 .title-input.disabled {
-  color: var(--gray);
+  color: var(--color-gray-3);
 }
 .title-input.isFocused {
-  color: var(--orange);
+  color: var(--color-orange);
 }
 .title-input.error {
-  color: var(--red);
+  color: var(--color-red);
 }
 
 .box-border.disabled {
-  border: 1.5px solid var(--gray-1);
-  color: var(--gray);
+  border: 1.5px solid var(--color-gray-1);
+  color: var(--color-gray-3);
 }
 .box-border.isFocused {
-  border: 1.5px solid var(--orange);
+  border: 1.5px solid var(--color-orange);
 }
 .box-border.error {
-  border: 1.5px solid var(--red);
+  border: 1.5px solid var(--color-red);
 }
 
 /* Input padding and font size */
@@ -137,13 +137,13 @@
 }
 
 .divider.disabled {
-  background-color: var(--gray);
+  background-color: var(--color-gray-3);
 }
 .divider.error {
-  background-color: var(--red);
+  background-color: var(--color-red);
 }
 .divider.isFocused {
-  background-color: var(--orange);
+  background-color: var(--color-orange);
 }
 
 /* Clear button size and padding */
